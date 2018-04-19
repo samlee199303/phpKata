@@ -1,0 +1,26 @@
+{
+    "name": "kata/php",
+    "description": "PHP Kata skeleton",
+    "keywords": ["kata","TDD"],
+    "homepage": "https://github.com/samlee199303/php-kata",
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*@dev",
+        "mockery/mockery": "dev-master@dev",
+        "phpspec/phpspec": "3.0.*@dev"
+    },
+    "authors": [
+        {
+            "name": "Sam Lee",
+            "email": "samlee199303@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
