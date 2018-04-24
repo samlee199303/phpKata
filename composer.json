@@ -4,8 +4,8 @@
     "keywords": ["kata","TDD"],
     "homepage": "https://github.com/samlee199303/php-kata",
     "require-dev": {
-        "phpunit/phpunit": "5.7.*@dev",
-        "mockery/mockery": "dev-master@dev",
+        "phpunit/phpunit": "5.5.*@dev",
+        "mockery/mockery": "0.9.x@dev",
         "phpspec/phpspec": "3.0.*@dev"
     },
     "authors": [
